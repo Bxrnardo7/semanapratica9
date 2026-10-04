@@ -76,8 +76,3 @@ Depois de salvar, substitua esta instrução pela linha:
 - [ ] Fazer o commit e o push do branch.
 - [ ] Enviar a URL do repositório no Canvas.
 
-Mensagem de commit solicitada (substitua XXXXXXX pela matrícula):
-
-```text
-Atividade Prática - Funções e DOM - matrícula: XXXXXXX
-```
