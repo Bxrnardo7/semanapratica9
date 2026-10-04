@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini Ecommerce | Catálogo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <p class="eyebrow">TECNOLOGIA PARA O SEU DIA</p>
+      <h1>Mini Ecommerce<span>.</span></h1>
+      <p>Explore o catálogo e encontre seu próximo upgrade.</p>
+    </div>
+  </header>
+  <main class="container">
+    <section class="controls" aria-label="Filtros do catálogo">
+      <div class="field">
+        <label for="search">Buscar produto</label>
+        <input id="search" type="search" placeholder="Digite o nome do produto...">
+      </div>
+      <div class="field">
+        <label for="category">Categoria</label>
+        <select id="category">
+          <option value="">Todas</option>
+        </select>
+      </div>
+      <button id="btnRender" type="button">Renderizar</button>
+    </section>
+    <div class="section-heading">
+      <h2>Nosso catálogo</h2>
+      <p id="product-count" role="status"></p>
+    </div>
+    <div id="product-list"></div>
+    <section id="product-details" aria-live="polite" aria-label="Detalhes do produto">
+      <h2>Conheça cada detalhe</h2>
+      <p>Clique em “Ver detalhes” em um dos produtos para saber mais.</p>
+    </section>
+  </main>
+  <footer class="container">Atividade prática • Funções e manipulação do DOM<br>Catálogo demonstrativo com produtos e
+    preços fictícios.</footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
